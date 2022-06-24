@@ -4,7 +4,8 @@
 using namespace std;
 
 int main(){
-    vector <int> vector1 (120, 0); // creating vector with 120 elements equal to 0
+    vector <int> vector1 (120, 0); 
+    // creating vector with 120 elements equal to 0
 
     cout << vector1.at(24) << endl;
     
