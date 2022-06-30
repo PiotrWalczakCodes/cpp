@@ -6,7 +6,8 @@ Repository made for learning C++ elements.
 
 - Learnign materials for C++
 - Implemented algorithms
-- Populat problems solutions
+- Popular problems solutions
+- Other stuff related to C++ programming 
 
 
 
