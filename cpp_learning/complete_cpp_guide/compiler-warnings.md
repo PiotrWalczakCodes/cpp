@@ -5,4 +5,5 @@
 int number;
 std::cout << number;
 ```
-> **warning: number is uninitialized**
+**warning: number is uninitialized**<br>
+> [Back to topics](contents.md)
