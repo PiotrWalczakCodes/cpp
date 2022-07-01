@@ -15,3 +15,6 @@
  - [Comments](comments.md)
  - [Identifiers](identifiers.md)
  - [Operators](operators.md)
+ - [The main() function](main-function.md)
+ - [Namespaces](namespaces.md)
+ - [Basic I/O using cin & cout](basic-io.md)
