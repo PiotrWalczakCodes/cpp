@@ -11,4 +11,7 @@
 -  [Logic errors](logic-errors.md)
 ### C++ program structure
  - [Keywords](keywords.md)
- - 
+ - [Syntax](syntax.md)
+ - [Comments](comments.md)
+ - [Identifiers](identifiers.md)
+ - [Operators](operators.md)
