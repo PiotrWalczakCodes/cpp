@@ -19,5 +19,5 @@
  - [Namespaces](namespaces.md)
  - [Basic I/O using cin & cout](basic-io.md)
 ### C++ elements
- - [Variables](variables.cpp) 
+ - [Variables](variables.md) 
  - [C++ primitive data types](primitive-types.md)
