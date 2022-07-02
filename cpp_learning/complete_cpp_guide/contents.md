@@ -21,3 +21,6 @@
 ### C++ elements
  - [Variables](variables.md) 
  - [C++ primitive data types](primitive-types.md)
+ - [Constants](constants.md)
+ - [Arrays](arrays.md)
+ - [Vectors](vectors.md)
