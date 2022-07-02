@@ -18,3 +18,6 @@
  - [The main() function](main-function.md)
  - [Namespaces](namespaces.md)
  - [Basic I/O using cin & cout](basic-io.md)
+### C++ elements
+ - [Variables](variables.cpp) 
+ - [C++ primitive data types](primitive-types.md)
