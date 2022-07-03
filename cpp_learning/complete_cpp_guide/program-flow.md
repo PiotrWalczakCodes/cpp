@@ -34,3 +34,4 @@ if (num > 10)
 else
     cout << "Num is not bigger than 10" << endl;
 </pre>
+> [Back to topics](contents.md)
