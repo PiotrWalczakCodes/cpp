@@ -26,3 +26,4 @@
  - [Vectors](vectors.md)
  - [Statements & operators](statements-operators.md)
  - [Controlling program flow](program-flow.md)
+ - [Looping](looping.md)
