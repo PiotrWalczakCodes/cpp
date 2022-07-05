@@ -103,4 +103,102 @@ t
 r
 ```
 ### "while" loop
+```
+while  (expression)
+    statement;
+```
+```
+while (expression)  {
+    statement(s);
+}
+```
+Simple while loop:
+```
+int i{1};
 
+while (i <= 5)  {
+    cout << i << endl;
+    ++i;
+}
+        
+        ||
+        ||
+        \/
+
+1
+2
+3
+4
+5
+```
+### "do-while" loop
+```
+do {
+    statement(s);
+} while (expression);
+```
+- `do-while` is post-test loop
+
+### Continue & break statements
+- `continue`
+  - no further statements in the body of the loop are executed
+  - control immediately goes directly to the beginning of the loop for the next iteration
+- `break`
+  - no further statements in the body of loop are executed
+  - loop is immediately terminated
+  - control immediately goes to the statement following the loop construct
+### Infinite loops
+- Loops whose condition expression always evaluates to true
+- Usually this is unintended and a programmer error
+- Sometimes programmers use infinite loops and include  break statements in the body to control them
+- Sometimes infinite loops are exactly what we need
+  - Event loop in an event-driven program
+  - Operating system<br>
+
+Infinite `for` loop:
+```
+for (;;)
+    cout << "This will print forever" << endl;
+```
+Infinite `while` loop:
+```
+while (true)
+    cout << "This will print forever" << endl;
+```
+Infinite `do-while` loop:
+```
+do {
+    cout << "This will print forever" << endl;
+} while(true);
+```
+
+Practical example:
+```
+while (true)    {
+    char again{};
+    cout << "Do you want to loop again? (Y/N): ";
+    cin >> again;
+
+    if (again == 'N' || again == 'n')
+        break;
+}
+```
+### Nested loops
+```
+for (outer_val{1}; outer_val <= 2; ++outer_val)
+    for (inner_val{1}; inner_val <= 3; ++inner_val)
+        cout << outer_val << ", " << inner_val << endl;
+
+            ||
+            ||
+            \/
+
+    1, 1
+    1, 2
+    1, 3
+    2, 1
+    2, 2
+    2, 3
+```
+
+    
