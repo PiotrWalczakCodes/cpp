@@ -27,3 +27,4 @@
  - [Statements & operators](statements-operators.md)
  - [Controlling program flow](program-flow.md)
  - [Looping](looping.md)
+ - [Characters & strings](characters-strings.md)
