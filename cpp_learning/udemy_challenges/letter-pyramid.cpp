@@ -8,12 +8,14 @@ int main(){
     string str{};
     cin >> str;
     
-    int i{str.length() - 1};
-    do   {
-        for (int j{}; j <= i; ++j)  {
+    for (int i{1}; i <= str.length(); ++i)  {
+        for (int j{1}; j <= (str.length() - i); ++j)    {
             cout << " ";
         }
-        
-    } while (i != 0);
+        for (int n{1}; n <= (str.length() - (str.length() - i)); ++n)  {
+            cout << str[n-1];
+        }
+        cout << "\n";
+    }
     return 0;
 }
