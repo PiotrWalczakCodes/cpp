@@ -15,6 +15,11 @@ int main(){
         for (int n{1}; n <= (str.length() - (str.length() - i)); ++n)  {
             cout << str[n-1];
         }
+        // if (i != 1)     {
+        //     for (int o{(str.length() - (str.length() - i)) - 2}; o >= 1; --o)   {
+        //         cout << str[o];
+        //     }
+        // }
         cout << "\n";
     }
     return 0;
