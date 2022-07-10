@@ -28,3 +28,4 @@
  - [Controlling program flow](program-flow.md)
  - [Looping](looping.md)
  - [Characters & strings](characters-strings.md)
+ - [Functions](function.md)
