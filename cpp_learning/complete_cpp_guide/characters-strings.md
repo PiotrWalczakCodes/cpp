@@ -104,4 +104,6 @@ std::string s6 (3, 'P');        <- PPP
 - Searching - `find()`
   - Returns the index of a substring in a std::string
     - `object.find(search_string, optionally_starting_index)`
--  
+- Removing - `erase()` & `clear()`
+  - `object.erase(starting_index, length`
+> [Back to topics](contents.md)
