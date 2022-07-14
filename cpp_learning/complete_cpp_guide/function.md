@@ -126,3 +126,64 @@ Hello there!
     }
 ```
 ### Function parameters
+- When we call a function we can pass in data to that function
+- In the function call they are called arguments
+- In the function definition they are called parameters
+- They must match in number, order & type
+
+Example
+```
+int add_numbers(int, int);  <= prototype
+
+int main(){
+  int result{0};
+  result = add_numbers(100,200);   <= call
+  return 0;
+}
+
+int add_numbers(int a, int b) {     <= definition
+  return a + b;
+}
+```
+- **Pass-by-value**
+  - When you pass data into a function it is passed-by-value
+  - A copy of the data is passed to the function 
+  - Whatever changes you make to the parameter in the function does not affect the argument that was passed in
+  - Formal vs actual parameters
+    - Formal parameters - the parameters defined in the function header
+    - Actual parameters - the parameter used in the function call, the arguments
+- **Function return statement**
+  - If a function returns a value then it must use a `return` statement that returns a value
+  - If a function does not return a value (`void`) then the `return` statement is optional
+  - `return` statement can occur anywhere in the body of the function
+  - `return` statement immediately exits the function
+  - We can have multiple `return` statements in a function
+    - Avoid it
+  - The `return` value is the result of the function call
+### Default argument values
+- When a function is called, all arguments must be supplied
+- Sometimes some of the arguments have the same values most of the time
+- We can tell the compiler to use default values if the arguments are not supplied
+- Default values can be in the prototype or definition, not both
+  - Best practice - in the prototype
+  - must appear at the tail end of the parameter list
+- Can have multiple default vales
+  - must appear consecutively at the tail end of the parameter list
+
+Example 
+```
+double calc_cost(double base_cost, double tax_rate = 0.06);
+
+double calc_cost(double base_cost, double tax_rate) 
+{
+  return base_cost += (base_cost * tax_rate);
+}
+
+int main(){
+  double cost{0};
+  cost = calc_cost(200.0);        <= will use default tax
+  cost = calc_cost(100.0, 0.08)   <= will 0.08 instead of default
+  
+  return 0;
+}
+```
