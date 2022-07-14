@@ -103,3 +103,26 @@ int main()  {
 Hello there!
 ```
 - Compiler must know the function details **BEFORE** it is called
+### Function prototypes
+- The compiler must know about a function before it is used
+  - Define functiosn before calling them
+    - OK for small programs
+    - Not a practical solution for larger programs
+  - Use function prototypes
+    - Tells the compiler what it needs to know without a full function definition
+    - Also called forward declarations
+    - Placed at the beginning od the program
+    - Also used in our own header files (.h)
+- Example of function prototype
+```
+    int function_name();  <= prototype
+
+    ...
+
+    int function_name()
+    {
+      statement(s);
+      return 0;
+    }
+```
+### Function parameters
